@@ -22,7 +22,8 @@ const multiply = function(array) {
   return product
 };
 
-const power = function() {
+const power = function(base, power) {
+  return Math.pow(base, power);
 	
 };
 
