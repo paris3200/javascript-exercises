@@ -7,10 +7,11 @@ const subtract = function(a, b) {
 };
 
 const sum = function( numbers) {
-    const sum = numbers.reduce((total, num ) => {
+    const sum = numbers.reduce((total, num) => {
       return total + num
-    }, 0 );
-    return sum;
+    }, 0)
+
+    return sum
 };
 
 const multiply = function(numbers) {
