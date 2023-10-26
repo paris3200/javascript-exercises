@@ -13,11 +13,10 @@ const sum = function( numbers) {
     return sum;
 };
 
-const multiply = function(array) {
-  let product = 1;
-  for (const item of array){
-    product *= item;
-  }
+const multiply = function(numbers) {
+  const product = numbers.reduce((total, num) => {
+    return total * num;
+  }, 1)
   return product
 };
 
